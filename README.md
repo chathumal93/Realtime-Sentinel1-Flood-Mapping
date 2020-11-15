@@ -2,11 +2,11 @@
 A Realtime Flood Mapping Approach ( Change Thresholding) Using Sentinel 1 Synthetic Aperture Radar Data with Open Source Python Packages.
 
 # Objective 
-This script provides the user to process Sentinel 1 Data to detect the flood. 
+This script will give the user access to process Sentinel 1 (Synthetic Aperture Radar) data to detect water areas after a disaster, especially a flood, typhoon, or storm.
 
 # Functionality
 This flood mapping approach gives the user a real-time flood (Water Area Detection) mapping using Sentinel 1 data based on threshold technique.
-Open SAR Toolkit (OST), SNAP toolbox, WhiteboxTools, and Orfeo were used in the script.
+Open SAR Toolkit (OST), SNAP toolbox, WhiteboxTools, and Orfeo toolboxwere used in this script.
 
 Link to Open SAR Toolkit (OST)
 https://github.com/ESA-PhiLab/OpenSarToolkit 
