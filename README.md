@@ -13,7 +13,7 @@ https://github.com/ESA-PhiLab/OpenSarToolkit
 Link to WhiteboxTools
 https://jblindsay.github.io/ghrg/WhiteboxTools/index.html
 
-#Steps
+# Steps
 1. Install SNAP
 Install SNAP into the standard directory to OST to find the SNAP command-line executable. 
 2. Install OST
