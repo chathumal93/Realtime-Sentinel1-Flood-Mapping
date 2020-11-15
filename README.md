@@ -17,6 +17,7 @@ https://jblindsay.github.io/ghrg/WhiteboxTools/index.html
 1. Install SNAP
 
 Install SNAP into the standard directory to OST to find the SNAP command-line executable. 
+
 2. Install OST
 
 You can find the installation instruction from this Link to Open SAR Toolkit (OST)
