@@ -6,7 +6,7 @@ This script will give the user access to process Sentinel 1 (Synthetic Aperture 
 
 # Functionality
 This flood mapping approach gives the user a real-time flood (Water Area Detection) mapping using Sentinel 1 data based on threshold technique.
-Open SAR Toolkit (OST), SNAP toolbox, WhiteboxTools, and Orfeo toolboxwere used in this script.
+Open SAR Toolkit (OST), SNAP toolbox, WhiteboxTools, and Orfeo toolbox were used in this script.
 
 Link to Open SAR Toolkit (OST)
 https://github.com/ESA-PhiLab/OpenSarToolkit 
