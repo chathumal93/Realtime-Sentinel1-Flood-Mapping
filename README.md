@@ -25,3 +25,6 @@ You can find the installation instruction from this Link to Open SAR Toolkit (OS
 https://github.com/ESA-PhiLab/OpenSarToolkit 
 
 3. Install anaconda
+
+
+"""C:\Users\Chatumal\anaconda3\envs\ost\Lib"""
