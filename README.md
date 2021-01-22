@@ -83,8 +83,13 @@ The results will include the following;
 * Threshold and majority filtered tif files. 
 * Detected Flood water shp file.
 
+![](Images/Flood_Result_QGIS.png)
 
+![](Images/Method.png)
 
+![](Images/Output_Structure_01.png)
+
+![](Images/Output_Structure_02.png)
 
 
 
