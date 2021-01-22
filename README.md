@@ -78,7 +78,7 @@ from Flood_OST_S1 import Sentinel1Flood
 
 # Methodology
 
-![](Images/Method.png)
+![](Images/Method.png | width=100)
 
 # Output
 The results will include the following;
