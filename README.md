@@ -76,6 +76,10 @@ from ost.helpers import helpers as h, raster as ras
 #Importing Flood Processing Module
 from Flood_OST_S1 import Sentinel1Flood
 
+# Methodology
+
+![](Images/Method.png)
+
 # Output
 The results will include the following;
 
@@ -83,13 +87,18 @@ The results will include the following;
 * Threshold and majority filtered tif files. 
 * Detected Flood water shp file.
 
+![](Images/Output_Structure.png)
+
+
+
+
+
+
 ![](Images/Flood_Result_QGIS.png)
 
-![](Images/Method.png)
 
-![](Images/Output_Structure_01.png)
 
-![](Images/Output_Structure_02.png)
+
 
 
 
