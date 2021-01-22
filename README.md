@@ -77,6 +77,7 @@ from ost.helpers import helpers as h, raster as ras
 from Flood_OST_S1 import Sentinel1Flood
 
 # Methodology
+<img src="https://github.com/chathumal93/Realtime-Sentinel1-Flood-Mapping/blob/master/Images/Method.png" width="400" height="400" />
 
 # ![](Images/Method.png)
 ![test image size](/Images/Method.png){:height="300px" width="300px"}
