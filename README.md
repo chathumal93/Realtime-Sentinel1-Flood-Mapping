@@ -19,7 +19,7 @@ All the acquisition plans of Sentinel-1 Satellite can be downloaded from this li
 
 Once the main script is running, it will find the latest Sentinel-1 Images over the defined time and region on interest. If the post-disaster data is not available, this main script will run automatically for pre-defined time intervals until it finds the Post-disaster images. Then the flood extraction is carried out according to the instruction of the Flood_OST_S1.py file. This file includes the main processing steps such as pre-post change image generation, thresholding, majority filtering, and raster polygonization.
 
-# Installation Steps
+# Steps
 
 1. Install anaconda
 
