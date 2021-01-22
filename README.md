@@ -76,7 +76,12 @@ from ost.helpers import helpers as h, raster as ras
 #Importing Flood Processing Module
 from Flood_OST_S1 import Sentinel1Flood
 
+# Output
+The results will include the following;
 
+* processed pre-event and post-event tif files.
+* Threshold and majority filtered tif files. 
+* Detected Flood water shape file
 
 
 
