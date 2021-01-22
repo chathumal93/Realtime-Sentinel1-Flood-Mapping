@@ -78,7 +78,7 @@ from Flood_OST_S1 import Sentinel1Flood
 
 # Methodology
 
-![](Images/Method.png | width=100)
+
 
 # Output
 The results will include the following;
@@ -94,7 +94,7 @@ The results will include the following;
 
 ![](https://github.com/chathumal93/Realtime-Sentinel1-Flood-Mapping/blob/master/Images/Method.png =400x250)
 
-<img src="https://github.com/chathumal93/Realtime-Sentinel1-Flood-Mapping/blob/master/Images/Method.png" width="200" height="400" />
+<img src="https://github.com/chathumal93/Realtime-Sentinel1-Flood-Mapping/blob/master/Images/Method.png" width="400" height="400" />
 
 ![](Images/Flood_Result_QGIS.png)
 
