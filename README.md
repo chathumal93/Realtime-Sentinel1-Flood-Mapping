@@ -76,8 +76,9 @@ from ost.helpers import helpers as h, raster as ras
 #Importing Flood Processing Module
 from Flood_OST_S1 import Sentinel1Flood
 
-# Methodology
+# Flood Extraction Method
 
+<img src="https://github.com/chathumal93/Realtime-Sentinel1-Flood-Mapping/blob/master/Images/Method.png" width="400" height="400" />
 
 
 # Output
@@ -89,12 +90,7 @@ The results will include the following;
 
 ![](Images/Output_Structure.png)
 
-
-
-
-![](https://github.com/chathumal93/Realtime-Sentinel1-Flood-Mapping/blob/master/Images/Method.png =400x250)
-
-<img src="https://github.com/chathumal93/Realtime-Sentinel1-Flood-Mapping/blob/master/Images/Method.png" width="400" height="400" />
+Final Product visualized in QGIS Software
 
 ![](Images/Flood_Result_QGIS.png)
 
