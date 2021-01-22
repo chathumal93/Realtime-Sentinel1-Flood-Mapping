@@ -22,6 +22,7 @@ Once the main script is running, it will find the latest Sentinel-1 Images over 
 # Installation Steps
 
 1. Install anaconda
+
 You can find the installation instruction from this Link.
 https://docs.anaconda.com/anaconda/install/
 
@@ -31,24 +32,28 @@ After the installation,install the libraries mentioned below using Anaconda prom
 
 
 2. Install OST
+
 You can find the installation instruction from this Link to Open SAR Toolkit (OST).
 https://github.com/ESA-PhiLab/OpenSarToolkit 
 
 
 
 3. Install SNAP
+
 Install SNAP into the standard directory to OST to find the SNAP command-line executable. 
 
 4. Running Scripts
-T
 
-
-Flood_OST_S1.py can be placed in the same directory as the main script, or it can be placed in the Lib folder of the working anaconda environment (e.g., " C:\Users\User_name\Anaconda3\Lib"). Then you can import the Flood_OST_S1 module to the main script. Sentinel1Flood is the class for the processing of the Sentinel-1 ARD data for flood detection.
+The main script (Realtime-Sentinel1-Flood-Mapping.ipynb) runs in jupyter notebook environment and the Flood_OST_S1.py can be placed in the same directory as the main script, or it can be placed in the Lib folder of the working anaconda environment (e.g., " C:\Users\User_name\Anaconda3\Lib"). 
+Then you can import the Flood_OST_S1 module to the main script. Sentinel1Flood is the class for the processing of the Sentinel-1 ARD data for flood detection.
  
     from Flood_OST_S1 import Sentinel1Flood
 
 
 # Methodology
+
+This below graph shows the method adopted in this approach
+
 <img src="https://github.com/chathumal93/Realtime-Sentinel1-Flood-Mapping/blob/master/Images/Method.png" width="400" height="400" />
 
 # Output
@@ -60,34 +65,8 @@ The results will include the following;
 
 ![](Images/Output_Structure.png)
 
-
-
-
-
+Result Floder Structure
 
 ![](Images/Flood_Result_QGIS.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Output visualization on QGIS
