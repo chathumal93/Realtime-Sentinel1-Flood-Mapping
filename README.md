@@ -20,13 +20,18 @@ All the acquisition plans of Sentinel-1 Satellite can be downloaded from this li
 Once the main script is running, it will find the latest Sentinel-1 Images over the defined time and region on interest. If the post-disaster data is not available, this main script will run automatically for pre-defined time intervals until it finds the Post-disaster images. Then the flood extraction is carried out according to the instruction of the Flood_OST_S1.py file. This file includes the main processing steps such as pre-post change image generation, thresholding, majority filtering, and raster polygonization.
 
 # Installation Steps
+
 1. Install anaconda
+You can find the installation instruction from this Link.
 https://docs.anaconda.com/anaconda/install/
 
+After the installation,install the libraries mentioned below using Anaconda prompt.
+
+    pip install glob2 DateTime GDAL numpy whitebox pathlib APScheduler rasterio pprint36
 
 
 2. Install OST
-You can find the installation instruction from this Link to Open SAR Toolkit (OST)
+You can find the installation instruction from this Link to Open SAR Toolkit (OST).
 https://github.com/ESA-PhiLab/OpenSarToolkit 
 
 
@@ -34,15 +39,8 @@ https://github.com/ESA-PhiLab/OpenSarToolkit
 3. Install SNAP
 Install SNAP into the standard directory to OST to find the SNAP command-line executable. 
 
-
-
-"""C:\Users\Chatumal\Anaconda3\Lib"""
-
-Flood OST
-
-e.g., In Anaconda prompt install the libraries mentioned below.
-
-    pip install glob2 DateTime GDAL numpy whitebox pathlib APScheduler rasterio pprint36
+4. Running Scripts
+T
 
 
 Flood_OST_S1.py can be placed in the same directory as the main script, or it can be placed in the Lib folder of the working anaconda environment (e.g., " C:\Users\User_name\Anaconda3\Lib"). Then you can import the Flood_OST_S1 module to the main script. Sentinel1Flood is the class for the processing of the Sentinel-1 ARD data for flood detection.
