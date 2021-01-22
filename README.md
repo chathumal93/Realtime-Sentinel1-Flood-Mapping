@@ -46,6 +46,17 @@ import numpy as np
 from whitebox.WBT.whitebox_tools import WhiteboxTools
 wbt = WhiteboxTools()
 
+for windows
+
+
+'''pip install glob2 DateTime'''
+
+
+
+
+
+
+
 functions
 
 change
