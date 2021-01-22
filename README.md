@@ -9,12 +9,22 @@ This flood mapping approach gives the user a real-time flood (Water Area Detecti
 Open SAR Toolkit (OST), SNAP toolbox, WhiteboxTools, and Orfeo toolbox were used in this script.
 This powerful and efficient OST provides Sentinel-1 Analysis Ready Data with a lot of processing options. It also opens up for further processing of this data for different applications. 
 
-
 Link to Open SAR Toolkit (OST)
 https://github.com/ESA-PhiLab/OpenSarToolkit 
 
 Link to WhiteboxTools
 https://jblindsay.github.io/ghrg/WhiteboxTools/index.html
+
+All the acquisition plans of Sentinel-1 Satellite can be downloaded from this link as kml files. (https://sentinel.esa.int/web/sentinel/missions/sentinel-1/observation-scenario/acquisition-segments/archive) When a disaster occurs, you can visualize this data in Google Earth Pro and get the idea of the timeline of the satellite passing over the region of interest. 
+
+Once the main script is running, it will find the latest Sentinel-1 Images over the defined time and region on interest. If the post-disaster data is not available, this main script will run automatically for pre-defined time intervals until it finds the Post-disaster images. Then the flood extraction is carried out according to the instruction of the Flood_OST_S1.py file. This file includes the main processing steps such as pre-post change image generation, thresholding, majority filtering, and raster polygonization.
+
+
+
+
+
+
+
 
 # Steps
 1. Install anaconda
