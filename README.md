@@ -48,7 +48,7 @@ wbt = WhiteboxTools()
 
 for windows
 
-    pip install glob2 DateTime
+    pip install glob2 DateTime GDAL numpy whitebox
 
 
 
