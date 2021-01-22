@@ -16,6 +16,10 @@ https://jblindsay.github.io/ghrg/WhiteboxTools/index.html
 
 # Steps
 1. Install anaconda
+https://docs.anaconda.com/anaconda/install/
+
+
+
 3. Install OST
 
 
