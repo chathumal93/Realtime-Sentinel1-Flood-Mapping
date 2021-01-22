@@ -82,7 +82,7 @@ from Flood_OST_S1 import Sentinel1Flood
 # Output
 The results will include the following;
 
-* Processed pre-event and post-event tif files.
+* Processed pre-event and post-event tif files. (In Flood_Result Folder)
 * Threshold and majority filtered tif files. 
 * Detected Flood water shp file.
 
